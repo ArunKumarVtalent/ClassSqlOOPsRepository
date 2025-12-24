@@ -1,5 +1,8 @@
 # Employee Model class / DB Entity Class
 
+# Here call name is representing Employee Table name in the database
+# Each attribute is representing each column of the Employee Table in the database
+
 class Employee:
     def __init__(self, empId, ename, password, gender, dob, phone, email, salary, address, deptNo):
         self.empId = empId
